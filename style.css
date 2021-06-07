@@ -1,16 +1,18 @@
-#profile{
+/* #profile{
     width: 60px;
     height: 60px;
     border-radius: 30px;
     object-fit: cover;
     margin-left: 1rem;
     margin-right: 1rem;
-}
+} */
 
 body{
      background: rgb(240,240,246);
      background: radial-gradient(circle, rgba(240,240,246,1) 0%, rgba(235,221,242,1) 35%, rgba(229,202,245,1) 100%);
      margin-top: 1rem;
+     align-items: center;
+     justify-content: center;
 }
 
 .header{
@@ -22,7 +24,6 @@ body{
     padding: 0rem 1rem;
     position: relative;
     font-size: 2.5rem;
-    margin: auto;
     font-family: 'Fredericka the Great', cursive;
     color: #3e0352;
 }
@@ -94,7 +95,7 @@ ul li{
 #nav-btn{
     cursor: pointer;
     position: absolute;
-    top: 2rem;
+    top: 1.5rem;
     right: 2rem;
     background-color: #650087;
     color: white;
@@ -129,7 +130,7 @@ nav{
 }
 
 #nav-btn.active {
-    transform: translateY(15vh);
+    transform: translateY(18vh);
 }
 
 nav.active {
