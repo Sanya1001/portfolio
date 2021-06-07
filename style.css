@@ -1,9 +1,10 @@
-.profile{
+#profile{
     width: 60px;
     height: 60px;
     border-radius: 30px;
     object-fit: cover;
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 body{
@@ -13,19 +14,27 @@ body{
 }
 
 .header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 50vw;
     text-align: center;
     padding: 0rem 1rem;
     position: relative;
-    top: -1rem;
     font-size: 2.5rem;
     margin: auto;
     font-family: 'Fredericka the Great', cursive;
     color: #3e0352;
 }
 
+.header-item{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .item-container{
     display: flex;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     flex-wrap: wrap;
 }
 
@@ -35,7 +44,7 @@ body{
     flex-wrap: wrap;
     margin: auto;
     margin-top: 1rem;
-    padding: 1rem 5rem;
+    padding: 1rem 4rem;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     width: 32vw;
     overflow: hidden;
@@ -44,7 +53,7 @@ body{
 }
 
 .header2{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Gorditas', cursive;
     color: #650087;
 }
@@ -57,7 +66,7 @@ body{
     text-align: justify;
     position: relative;
     top: -1.35rem;
-    left: 32vw;
+    left: 34vw;
     background-color: #650087;
     color: white;
     border-radius: 10px;
@@ -120,7 +129,7 @@ nav{
 }
 
 #nav-btn.active {
-    transform: translateX(-335px);
+    transform: translateY(15vh);
 }
 
 nav.active {
